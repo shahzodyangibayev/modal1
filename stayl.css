@@ -1,0 +1,68 @@
+ body{
+  background-image: url(https://fotouz.uz/uploads/files/2019-09/1569700819_kuz-_-kuz-fasli-_-autumn-_-osen-_-osen-_-kuz-_-kuz-fasli-28.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal{
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+.btn1{
+    background-color: orange;
+    font-size: 30px;
+    border-radius: 15px;
+    height: 45px;
+    cursor: pointer;
+    transition: background0.5s;
+    margin-top: 300px;
+}
+
+.btn1:hover{
+    background-color: #fff;
+}
+
+.btn_close{
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+i{
+    color: #fff;
+}
+
+.opasity{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.hidden{
+    display: none;
+}
